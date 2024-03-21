@@ -1,0 +1,45 @@
+@import "bootstrap";
+
+
+.day {
+    height: 160px !important;
+}
+
+
+.login-form-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-form {
+    width: 400px;
+    border: solid 1px #d2d2d2;
+    border-radius: 25px;
+    padding: 28px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.event-card {
+    background-color: #e7e7e7;
+    border: solid 1px darken(#e7e7e7, 10%);
+    border-radius: 25px;
+    padding: 16px 20px;
+
+    .title {
+        font-weight: 700;
+    }
+
+    .time-range {
+        font-size: 0.9rem;
+        color: darken(#e7e7e7, 40%);
+    }
+}
